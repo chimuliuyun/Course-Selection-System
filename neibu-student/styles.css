@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.course-list, .selected-courses {
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.course-item {
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.course-item:hover {
+    background-color: #eaf2ff;
+}
+
+.course-name {
+    display: inline-block;
+    vertical-align: middle;
+    width: 40%;
+}
+
+.course-action {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30%;
+    text-align: right;
+}
+
+.button {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    padding: 5px 10px;
+    color: #007bff;
+    border-radius: 3px;
+    text-decoration: underline;
+}
+
+.button:hover {
+    color: #0056b3;
+}
+
+/* 新增样式以支持横向布局 */
+.course-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.course-id, .course-name, .teacher, .credits {
+    margin-right: 10px; /* 根据需要调整间距 */
+}

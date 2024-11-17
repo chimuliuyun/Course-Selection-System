@@ -1,0 +1,33 @@
+/* styles.css */
+body{
+  background-image: url(student-class-section/denglu/beijing.png);
+}
+#login-container {
+  width: 300px;
+  margin: 100px auto;
+  text-align: center;
+}
+
+#student-login, #teacher-login {
+  display: none;
+  border: 1px solid #ccc;
+  padding: 30px;
+  margin-bottom: 20px;
+  background-color: rgba(240, 248, 255, 0.9);
+  width: 300px;
+  height: 300px;
+}
+
+#switch-to-student, #switch-to-teacher {
+  cursor: pointer;
+}
+
+#student-login input{
+  padding-left: 20px;
+  font-size: 15px;
+}
+
+#teacher-login input{
+  padding-left: 20px;
+  font-size: 15px;
+}
